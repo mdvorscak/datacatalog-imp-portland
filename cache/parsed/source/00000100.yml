@@ -1,0 +1,59 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: March 14, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - children
+    - City of Portland
+    - Clackamas
+    - Community
+    - counties
+    - county
+    - dogs
+    - ecology
+    - family
+    - green space
+    - location
+    - locations
+    - lots
+    - Multnomah
+    - pets
+    - plant
+    - recreation
+    - tax
+    - vegetation
+    - Washington
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52962&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: Taxlots associated with Portland Parks & Recreation's Capital Asset Management database.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Parks_Taxlots_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/parks/index.cfm?c=35300
+  :name: City of Portland
+:released: 
+  day: 18
+  month: 3
+  year: 2010
+:source_type: dataset
+:title: Parks Taxlots
+:url: http://www.civicapps.org/datasets/parks-taxlots

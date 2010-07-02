@@ -1,0 +1,48 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 1, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - address
+    - addresses
+    - City of Portland
+    - geocode
+    - geolocate
+    - geolocation
+    - MAF
+    - street address
+    - tax lot
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display_rl.cfm?Meta_layer_id=52064&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Points representing confirmed addresses in the City of Portland. Where the address is associated with a taxlot, the centroid of the parcel is used for the point location.
+:downloads: 
+- :format: csv
+  :url: http://www.portlandonline.com/shared/file/data/address.zip
+:frequency: Weekly
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 2003
+:source_type: dataset
+:title: Address Points
+:url: http://www.civicapps.org/datasets/address-points

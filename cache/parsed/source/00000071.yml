@@ -1,0 +1,46 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 6, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - "911"
+    - callout
+    - callouts
+    - Clackamas
+    - Clackamas County
+    - counties
+    - county
+    - dispatch
+    - emergency
+    - EMS
+    - safety
+    - Washington
+  "2": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Public Safety
+:description: Website Joint CAD Incident Tracking System for Clackamas and Washington Counties for EMS and Fire.
+:downloads: 
+- :format: html
+  :url: http://208.71.205.35/PITS
+:frequency: Real-time
+:organization: 
+  :home_url: http://www.clackamas911.org
+  :name: Clackamas County
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: 9-1-1 Joint Tracking Incident System
+:url: http://www.civicapps.org/datasets/9-1-1-joint-tracking-incident-system

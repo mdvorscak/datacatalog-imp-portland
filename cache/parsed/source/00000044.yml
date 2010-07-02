@@ -1,0 +1,47 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - COP
+    - geography
+    - hill
+    - hills
+    - terrain
+    - topo
+    - topographical
+    - topography
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52450&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Ground slope in 5% intervals for Portland, Multnomah County, Washington County, Clackamas County, Oregon.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Percent_Slope_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586&
+  :name: City of Portland
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: Ground Slope
+:url: http://www.civicapps.org/datasets/ground-slope

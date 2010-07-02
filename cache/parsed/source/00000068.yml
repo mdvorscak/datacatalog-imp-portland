@@ -1,0 +1,54 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 28, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - address
+    - addresses
+    - Clackamas
+    - Community
+    - counties
+    - county
+    - MET
+    - Multnomah
+    - post
+    - postal code
+    - usps
+    - Washington
+    - zip
+    - zip code
+    - zipcode
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=179&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: Interpretation of the USPS mail carrier zip codes for Clackamas, Clark, Multnomah, and Washington counties in Oregon and Washington.
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/ZipCodes.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1994
+:source_type: dataset
+:title: Zip Codes (region)
+:url: http://www.civicapps.org/datasets/zip-codes-region

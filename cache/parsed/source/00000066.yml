@@ -1,0 +1,50 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - bus
+    - COP
+    - light rail
+    - MAX
+    - parking
+    - streetcar
+    - transit
+    - Transportation
+    - Tri-met
+    - Trimet
+    - WES
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52099&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Transportation
+:description: "This polygon feature class defines the transportation planning district boundaries used in the City of Portland's Transportation System Plan (TSP). The boundaries are the following areas of the city: North, Northeast, Far Northeast, Southeast, Far Southeast, Northwest, Southwest, and Central City."
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Portland_TSP_District_Boundaries.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/transportation/index.cfm?c=32360
+  :name: City of Portland
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: TSP District Boundaries
+:url: http://www.civicapps.org/datasets/tsp-district-boundaries

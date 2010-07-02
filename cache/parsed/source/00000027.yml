@@ -1,0 +1,45 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: October 26, 2009
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - emergency
+    - hospital
+    - injuries
+    - injury
+    - medical
+    - MET
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=183&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Public Safety
+:description: Locations of area hospitals. Urban Clackamas County, Multnomah County, and Washington County, Oregon.
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/Hospitals.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1996
+:source_type: dataset
+:title: Hospitals (region)
+:url: http://www.civicapps.org/datasets/hospitals-region

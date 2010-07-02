@@ -1,0 +1,49 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - bushes
+    - COP
+    - geography
+    - grassland
+    - open
+    - riparian
+    - shrubbery
+    - shrubs
+    - tree
+    - trees
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52135&Db_type=sde&City_Only=False
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Vegetation patches larger than 1/2 acre. Based on information from reference data sources including 6" resolution aerial photos, Parks and Recreation natural area assessments, and vegetation surveys along the banks of the Willamette and Columbia rivers. Vegetation patches area classified as forest, woodland, shrubland, or herbaceous.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/vegetation_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586&
+  :name: City of Portland
+:released: 
+  day: 16
+  month: 12
+  year: 2004
+:source_type: dataset
+:title: Vegetation
+:url: http://www.civicapps.org/datasets/vegetation

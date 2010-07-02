@@ -1,0 +1,47 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: September 12, 2001
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - garbage hauler
+    - hauler boundary
+    - hauler franchise area
+    - junk
+    - MET
+    - refuse
+    - trash
+    - waste
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=636&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: The hauler boundary file defines the coverage areas for each Hauler Company. There is a field for the Company name for the pickup of residential waste, commercial waste, and for dropbox operations. Urban Clackamas County, Multnomah County, and Washington County, Oregon.
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/HaulerFranchise.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1992
+:source_type: dataset
+:title: Garbage Hauler Boundaries
+:url: http://www.civicapps.org/datasets/garbage-hauler-boundaries

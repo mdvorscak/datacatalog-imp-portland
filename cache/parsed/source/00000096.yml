@@ -1,0 +1,54 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: March 5, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - children
+    - City of Portland
+    - Clackamas
+    - Community
+    - counties
+    - county
+    - dogs
+    - family
+    - green space
+    - location
+    - locations
+    - Multnomah
+    - pets
+    - recreation
+    - Washington
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52963&Db_type=sde&City_Only=False
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: This dataset represents proposed and existing trail centerlines within the general vicinity of Portland, Oregon. It is an amalgamation of many different sources compiled at many different scales.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Parks_Trails_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/parks/index.cfm?c=35300
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 2004
+:source_type: dataset
+:title: Parks Trails
+:url: http://www.civicapps.org/datasets/parks-trails

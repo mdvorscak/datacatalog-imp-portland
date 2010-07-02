@@ -1,0 +1,51 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: October 1, 2007
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - aerial
+    - aerial imagery
+    - aerial photo
+    - aerial photography
+    - air photo
+    - digital imagery
+    - geoTIFF
+    - imagery
+    - images
+    - ortho
+    - orthoimage
+    - orthophoto
+    - orthorectified
+    - OSU
+    - photo
+    - photography
+    - rectified
+  "2": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Statewide 0.5 meter aerial imagery (online).
+:downloads: 
+- :format: html
+  :url: http://www.oregonexplorer.info/imagery/index.aspx
+:frequency: 
+:organization: 
+  :home_url: http://osulibrary.oregonstate.edu
+  :name: Oregon State University
+:released: 
+  day: 1
+  month: 10
+  year: 2007
+:source_type: dataset
+:title: Aerial Photographs (2005)
+:url: http://www.civicapps.org/datasets/aerial-photographs-2005

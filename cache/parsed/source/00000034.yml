@@ -1,0 +1,54 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 1, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - children
+    - Clackamas
+    - Community
+    - counties
+    - county
+    - dogs
+    - family
+    - green space
+    - location
+    - locations
+    - MET
+    - Multnomah
+    - pets
+    - recreation
+    - Washington
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=397&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: Public and private parks and open space for urban Clackamas County, Multnomah County, and Washington County.
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/Parks.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1990
+:source_type: dataset
+:title: Parks (region)
+:url: http://www.civicapps.org/datasets/parks-region

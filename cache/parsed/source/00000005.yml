@@ -1,0 +1,50 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - city boundaries
+    - city boundary
+    - city jurisdiction
+    - city limit
+    - extent
+    - MET
+    - metropolitan
+    - Portland
+    - region
+    - size
+    - town
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=123&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Regularly maintained city boundary file updated via annexation notifications and continual comparison to data submitted by local jurisdictions. Clackamas, Clark, Multnomah, and Washington counties in Oregon and Washington.
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/City.zip
+:frequency: Quarterly
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1990
+:source_type: dataset
+:title: City Boundaries (region)
+:url: http://www.civicapps.org/datasets/city-boundaries-region

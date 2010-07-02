@@ -1,0 +1,43 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 6, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - district
+    - education
+    - expenses
+    - performance
+    - PPS
+    - private schools
+    - public schools
+    - results
+    - School
+  "2": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Education
+:description: State of Oregon website containing various reports on school/district performance, expenditures, etc online.
+:downloads: 
+- :format: html
+  :url: http://www.ode.state.or.us/data/reports/toc.aspx
+:frequency: As needed
+:organization: 
+  :home_url: http://www.pps.k12.or.us
+  :name: State of Oregon
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: School Report Card and AYP Data
+:url: http://www.civicapps.org/datasets/school-report-card-and-ayp-data

@@ -1,0 +1,44 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - COP
+    - maintenance
+    - Transportation
+    - weather
+    - winter
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52610&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Transportation
+:description: City of Portland's snow and ice routes for ground conditions.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Snow_Ice_Routes_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/transportation/index.cfm?c=32360
+  :name: City of Portland
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: Snow & Ice Routes
+:url: http://www.civicapps.org/datasets/snow-ice-routes

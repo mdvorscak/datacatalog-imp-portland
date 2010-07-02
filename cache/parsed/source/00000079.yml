@@ -1,0 +1,40 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 25, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - City of Portland
+    - environment
+    - geography
+    - hydro
+    - map
+    - water
+  "2": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Estimated Depth to Ground Water in the Portland, Oregon Area (online from USGS).
+:downloads: 
+- :format: html
+  :url: http://or.water.usgs.gov/projs_dir/puz/puz.html
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586
+  :name: City of Portland
+:released: 
+  day: 25
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: Groundwater Maps
+:url: http://www.civicapps.org/datasets/groundwater-maps

@@ -1,0 +1,53 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - boundaries
+    - Clackamas
+    - Community
+    - COP
+    - counties
+    - county
+    - Multnomah
+    - nbo
+    - neighborhood
+    - neighborhood boundary
+    - neighborhood organization
+    - neighbors
+    - ONI
+    - Washington
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52195&Db_type=sde&City_Only=False
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: Neighborhood association boundaries in the City of Portland.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Neighborhoods_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 1997
+:source_type: dataset
+:title: Neighborhood Associations
+:url: http://www.civicapps.org/datasets/neighborhood-associations

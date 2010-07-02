@@ -1,0 +1,45 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 21, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - bus
+    - MET
+    - transit
+    - Transportation
+    - Tri-met
+    - Trimet
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=1616&Db_type=rlislite
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Transportation
+:description: The bus system is composed of one line layer (bus routes) and three point layers (bus stops, bus labels and downtown bus labels).
+:downloads: 
+- :format: shp
+  :url: ftp://ftp.oregonmetro.gov/odi/BusStops.zip
+:frequency: Quarterly
+:organization: 
+  :home_url: http://www.oregonmetro.gov/drc
+  :name: Metro
+:released: 
+  day: 1
+  month: 1
+  year: 1996
+:source_type: dataset
+:title: TriMet Bus System (stops)
+:url: http://www.civicapps.org/datasets/trimet-bus-system-stops

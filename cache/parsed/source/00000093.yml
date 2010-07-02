@@ -1,0 +1,48 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: March 2, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - amend
+    - approval
+    - approve
+    - authorize
+    - budget
+    - City of Portland
+    - Community
+    - contracts
+    - Economic Development
+    - intergovernmental agreements
+    - memo
+    - memorandum
+    - resolution
+    - resolutions
+  "2": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Community
+:description: Current Portland City Council Agenda. The Council Agenda is the weekly list of items to come before the City Council. The agenda is available after 4:00 pm each Friday (Pacific) for the following week's Council meetings.
+:downloads: 
+- :format: rss
+  :url: http://www.portlandonline.com/rss.cfm?c=26997
+:frequency: Weekly
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586
+  :name: City of Portland
+:released: 
+  day: 2
+  month: 3
+  year: 2010
+:source_type: dataset
+:title: Portland City Council Agenda
+:url: http://www.civicapps.org/datasets/portland-city-council-agenda

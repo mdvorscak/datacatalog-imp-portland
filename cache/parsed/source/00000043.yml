@@ -1,0 +1,45 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - COP
+    - geography
+    - hydro
+    - topo
+    - topographical
+    - water
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=464&Db_type=sde&City_Only=False
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Geography
+:description: Watersheds and Sub Watershed as delineated from USGS 7.5 minute quadrangle topography.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Watersheds_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586&
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 1994
+:source_type: dataset
+:title: Watershed / Sub Watershed Info
+:url: http://www.civicapps.org/datasets/watershed-sub-watershed-info

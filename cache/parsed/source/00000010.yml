@@ -1,0 +1,44 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: February 2, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - COP
+    - public works
+    - renovations
+    - revitalization
+    - revitalize
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52640&Db_type=sde&City_Only=False
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Public Works
+:description: Locations of City of Portland Capital Improvement Projects (CIP) - both planned and in progress. This dataset includes projects mapped by a linear feature.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/CIP_Data_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/bts/index.cfm?c=26586
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 2005
+:source_type: dataset
+:title: Capital Improvement Projects
+:url: http://www.civicapps.org/datasets/capital-improvement-projects

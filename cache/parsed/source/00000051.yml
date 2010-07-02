@@ -1,0 +1,49 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - Clackamas
+    - COP
+    - counties
+    - county
+    - employment
+    - Multnomah
+    - opportunities
+    - opportunity
+    - public works
+    - Washington
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52942&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Transportation
+:description: This dataset is made up of three feature classes; Permit Jobs Point, Permit Jobs Line, and Permit Jobs Polygon. The only distinction between these is in the means used to graphically depict the job location (points). These feature classes indicate where developer-generated construction jobs are in design or permitted. These jobs are reviewed by the City. Attributes include information on the project number, name and description as well as the city engineering contact names.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Portland_Streets_Permit_Jobs_Point.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.portlandonline.com/transportation/index.cfm?c=32360
+  :name: City of Portland
+:released: 
+  day: 6
+  month: 2
+  year: 2010
+:source_type: dataset
+:title: Streets - Jobs (permit jobs - points)
+:url: http://www.civicapps.org/datasets/streets-jobs-permit-jobs-points

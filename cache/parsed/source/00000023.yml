@@ -1,0 +1,52 @@
+--- 
+:catalog_name: Portland Oregon Data Catalog
+:catalog_url: http://www.civicapps.org/datasets
+:custom: 
+  "0": 
+    :description: last update to data set
+    :label: last_updated
+    :type: string
+    :value: January 31, 2010
+  "1": 
+    :description: tags for the data set
+    :label: tags
+    :type: array
+    :value: 
+    - business
+    - businesses
+    - COP
+    - electronic commerce
+    - investment
+    - job creation
+    - partnership
+    - PDC
+    - Portland Development Commission
+    - property tax
+    - tax abatement
+    - tax credit
+    - taxes
+  "2": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52266&db_type=sde
+  "3": 
+    :description: category
+    :label: category
+    :type: string
+    :value: Economic Development
+:description: The N/NE Portland Enterprise and Electronic Commerce Zone is a public/private partnership program managed by the Portland Development Commission providing a 5 year property tax abatement on new investment, and for eligible E-Commerce businesses, a 25% state income/excise tax credit, in exchange for meeting job creation and other requirements aimed at business creation within N/NE Portland.
+:downloads: 
+- :format: shp
+  :url: http://www.portlandonline.com/shared/file/data/Enterprise_ECommerce_Zone_pdx.zip
+:frequency: As needed
+:organization: 
+  :home_url: http://www.pdc.us
+  :name: City of Portland
+:released: 
+  day: 1
+  month: 1
+  year: 1996
+:source_type: dataset
+:title: Enterprise and E-Commerce Zones
+:url: http://www.civicapps.org/datasets/enterprise-and-e-commerce-zones
