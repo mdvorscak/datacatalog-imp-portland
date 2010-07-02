@@ -29,18 +29,18 @@ class SourcePuller < Puller
   def get_metadata
     login
     page=parse_one_page(@base_uri)
-    #last=page.search("//div//ul[@class='pager']//li[@class='pager-last last']")
-    #last_page_link=last.css("a").first["href"]
-    #begin
-    #  next_page=page.search("//div//ul[@class='pager']//li[@class='pager-next']")
-    #    link=next_page.css("a").first
-    #  if link
-    #    link=link["href"]
-    #    @current_page=@base+link
-    #    puts "on page "+@current_page
-    #    page=parse_one_page(@current_page)
-    #  end
-    #end while link!=last_page_link
+    last=page.search("//div//ul[@class='pager']//li[@class='pager-last last']")
+    last_page_link=last.css("a").first["href"]
+    begin
+      next_page=page.search("//div//ul[@class='pager']//li[@class='pager-next']")
+        link=next_page.css("a").first
+      if link
+        link=link["href"]
+        @current_page=@base+link
+        puts "on page "+@current_page
+        page=parse_one_page(@current_page)
+      end
+    end while link!=last_page_link
 
     @metadata_master
 
@@ -73,6 +73,8 @@ class SourcePuller < Puller
     end
 
     info={}
+    title=page.search("//title").inner_text
+    title.gsub!(" | CivicApps.org","")
     rows=page.search("//div[@class='content']//table[@class='datasets-summary-table']//tr")
     rows.each do |row|
       td_tags=row.css("td")
@@ -104,6 +106,8 @@ class SourcePuller < Puller
     end
     info[:url]=full_link
     info[:download_type]=download_type
+    info[:title]=title
+    OrganizationPuller.add_org(info[:sub_agency],info[:agency_program])
     info
   end
 
@@ -116,16 +120,18 @@ class SourcePuller < Puller
         :description=>metadata.delete(:description),
         :organization=>{:name=>metadata.delete(:agency),
                         :home_url=>metadata.delete(:agency_program)},
+        :title=>metadata.delete(:title),
     }
 
     dl_type=metadata.delete(:download_type)
     key=translate_download_to_key(dl_type)
-    m[:downloads]=[{:url=>metadata.delete(:download),:format=>key}]
 
     if dl_type=="Web Service"
       source_type="api"
+      metadata.delete(:download)
     else
       source_type="dataset"
+      m[:downloads]=[{:url=>metadata.delete(:download),:format=>key}]
     end
 
 
