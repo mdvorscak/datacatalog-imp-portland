@@ -55,6 +55,7 @@ class OrganizationPuller < Puller
     found=false
     @@metadata_master.each do |index|
       found=index.find {|key,val| val==org_name or val==org_url}
+      break if found
     end
     @@metadata_master<<{:name=>org_name,:home_url=>org_url,:url=>org_url} unless found
   end
