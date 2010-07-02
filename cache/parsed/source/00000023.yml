@@ -26,15 +26,15 @@
     - tax credit
     - taxes
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52266&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Economic Development
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52266&db_type=sde
 :description: The N/NE Portland Enterprise and Electronic Commerce Zone is a public/private partnership program managed by the Portland Development Commission providing a 5 year property tax abatement on new investment, and for eligible E-Commerce businesses, a 25% state income/excise tax credit, in exchange for meeting job creation and other requirements aimed at business creation within N/NE Portland.
 :downloads: 
 - :format: shp

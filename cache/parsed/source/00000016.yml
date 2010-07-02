@@ -21,15 +21,15 @@
     - Metro council
     - region
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=1678&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=1678&Db_type=rlislite
 :description: Boundaries for six Metro council districts.
 :downloads: 
 - :format: shp

@@ -20,15 +20,15 @@
     - walk
     - walking
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52483&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Public Works
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52483&db_type=sde
 :description: This linear feature class is part of the Bureau of Transportation's sidewalk system (the entire system consists of sidewalk, corners and curbs). Curbs not only provide the edge for the pedestrian network but they also channel water to the drainage system which helps preserve the street pavement.
 :downloads: 
 - :format: shp

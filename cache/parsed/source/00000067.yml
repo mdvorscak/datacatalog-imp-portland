@@ -23,15 +23,15 @@
     - tree
     - trees
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52135&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52135&Db_type=sde&City_Only=False
 :description: Vegetation patches larger than 1/2 acre. Based on information from reference data sources including 6" resolution aerial photos, Parks and Recreation natural area assessments, and vegetation surveys along the banks of the Willamette and Columbia rivers. Vegetation patches area classified as forest, woodland, shrubland, or herbaceous.
 :downloads: 
 - :format: shp

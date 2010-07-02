@@ -19,15 +19,15 @@
     - COP
     - Economic Development
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52162&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Economic Development
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52162&db_type=sde
 :description: Business Association boundaries in the City of Portland.
 :downloads: 
 - :format: shp

@@ -21,15 +21,15 @@
     - street
     - streets
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52855&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Public Works
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52855&db_type=sde
 :description: This linear featureclass includes two types of data based on the status field. If the status is PLANNED then the feature is a street that has been identified as being in need of maintenance. If the status is ACTIVE then thefeature class is street that is under a five year Pavement Moratorium due to recent repair or construction of the pavement surface.
 :downloads: 
 - :format: shp

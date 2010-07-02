@@ -23,15 +23,15 @@
     - revitalization
     - revitalize
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52806&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Economic Development
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52806&db_type=sde
 :description: The purpose of the Signage and Lighting Improvements Product (SLIP) is to provide additional incentives for retail businesses to invest in business signs and store window lighting to improve overall commercial facade appearance and refresh the appearance of the retail district.
 :downloads: 
 - :format: shp

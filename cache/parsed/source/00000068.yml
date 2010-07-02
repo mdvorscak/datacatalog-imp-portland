@@ -28,15 +28,15 @@
     - zip code
     - zipcode
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=179&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=179&Db_type=rlislite
 :description: Interpretation of the USPS mail carrier zip codes for Clackamas, Clark, Multnomah, and Washington counties in Oregon and Washington.
 :downloads: 
 - :format: shp

@@ -18,15 +18,15 @@
     - location
     - seats
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=181&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=181&Db_type=rlislite
 :description: City Hall locations for urban Clackamas County, Multnomah County, and Washington County, Oregon.
 :downloads: 
 - :format: shp

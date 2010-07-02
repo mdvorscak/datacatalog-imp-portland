@@ -62,15 +62,15 @@
     - vehicle theft
     - welfare check
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=53215&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Public Safety
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=53215&Db_type=sde&City_Only=False
 :description: An RSS feed which contains geographic locations for the 100 most recent, closed, non-confidential, 911 calls for service received by the City of Portlands 911 system. This feed is updated every 30 seconds.
 :downloads: 
 - :format: rss

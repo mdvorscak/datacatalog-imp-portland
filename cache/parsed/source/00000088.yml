@@ -20,15 +20,15 @@
     - seasonal
     - yard
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52931&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52931&db_type=sde
 :description: This linear feature class includes Route information for the leaf pickup work done by Transportation Maintenance Operations.
 :downloads: 
 - :format: shp

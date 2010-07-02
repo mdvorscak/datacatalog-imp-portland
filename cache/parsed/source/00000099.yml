@@ -36,15 +36,15 @@
     - vegetation
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52961&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52961&db_type=sde
 :description: Ingrant and Outgrant easements to Portland Parks & Recreation.
 :downloads: 
 - :format: shp

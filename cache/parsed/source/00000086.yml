@@ -31,15 +31,15 @@
     - zone
     - zoning
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=179&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=179&Db_type=sde&City_Only=False
 :description: USPS mail carrier zip code boundaries for Clackamas, Clark, Multnomah, and Washington counties in Oregon and Washington.
 :downloads: 
 - :format: shp

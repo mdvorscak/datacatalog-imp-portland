@@ -20,15 +20,15 @@
     - geolocate
     - geolocation
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=53125&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Economic Development
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=53125&db_type=sde
 :description: This file contains relative GIS information about businesses which have business licenses with City of Portland, including business name, address, X/Y coordinates (for use with GIS application such as portlandmaps.com), and property taxlot ID.
 :downloads: 
 - :format: csv

@@ -24,15 +24,15 @@
     - Tri-met boundary
     - Trimet
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=257&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=257&Db_type=rlislite
 :description: Transit district boundaries within the Portland metropolitan area.
 :downloads: 
 - :format: shp

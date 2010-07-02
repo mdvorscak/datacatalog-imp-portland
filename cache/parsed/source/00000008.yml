@@ -21,15 +21,15 @@
     - trash
     - waste
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=636&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=636&Db_type=rlislite
 :description: The hauler boundary file defines the coverage areas for each Hauler Company. There is a field for the Company name for the pickup of residential waste, commercial waste, and for dropbox operations. Urban Clackamas County, Multnomah County, and Washington County, Oregon.
 :downloads: 
 - :format: shp

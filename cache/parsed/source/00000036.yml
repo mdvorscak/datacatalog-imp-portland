@@ -23,15 +23,15 @@
     - Trimet
     - WES
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=1518&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=1518&Db_type=rlislite
 :description: Light rail stations (MAX) and central city street car stops existing or under construction, in urban Clackamas County, Multnomah County, and Washington County, Oregon.
 :downloads: 
 - :format: shp

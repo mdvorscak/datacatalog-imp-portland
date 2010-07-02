@@ -27,15 +27,15 @@
     - ONI
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52195&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52195&Db_type=sde&City_Only=False
 :description: Neighborhood association boundaries in the City of Portland.
 :downloads: 
 - :format: shp

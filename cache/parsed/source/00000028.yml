@@ -18,15 +18,15 @@
     - surveillance
     - Transportation
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52787&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52787&db_type=sde
 :description: This point feature class is the traffic camera portion of the Intelligent Transportation System (ITS) which manages demand on the system and provides information to the public on traffic movement and delays.
 :downloads: 
 - :format: shp

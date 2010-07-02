@@ -20,15 +20,15 @@
     - roadways
     - Transportation
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=556&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=556&Db_type=rlislite
 :description: Regional street network with geocodable addresses. Virtually every street in the region is in this data layer for Clackamas County, Multnomah County, and Washington County, Oregon.
 :downloads: 
 - :format: shp

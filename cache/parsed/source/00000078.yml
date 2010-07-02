@@ -18,15 +18,15 @@
     - topographical
     - topography
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52453&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52453&Db_type=sde&City_Only=False
 :description: Elevation map was created as a by-product of the 2001 digital ortho-rectified imagery, using 5 ft contours. Covers the Portland metropolitan area (511 square miles).
 :downloads: 
 - :format: shp

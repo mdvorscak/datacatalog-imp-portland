@@ -28,15 +28,15 @@
     - recreation
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52451&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52451&Db_type=sde&City_Only=False
 :description: Park boundary dataset derived fromtaxlots that compose the park site.
 :downloads: 
 - :format: shp

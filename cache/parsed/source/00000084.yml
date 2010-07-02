@@ -23,15 +23,15 @@
     - Trimet
     - WES
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://developer.trimet.org/ws_docs
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://developer.trimet.org/ws_docs
 :description: RESTful web service returning descriptive data for a transit route such as route direction and stops included on the route.
 :frequency: Real-time
 :organization: 

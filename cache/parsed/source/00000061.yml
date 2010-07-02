@@ -20,15 +20,15 @@
     - Transportation
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52501&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52501&db_type=sde
 :description: This point feature class participates in the group of layers that make up the Freight Classification of the Transportation System Plan (TSP). Freight Facilities include major shipping and air terminals and rail facilities that serve the statewide, interstate, and international movement of goods or commodities. An attribute carries the name of the freight facility.
 :downloads: 
 - :format: shp

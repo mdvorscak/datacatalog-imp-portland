@@ -20,15 +20,15 @@
     - revitalization
     - revitalize
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52621&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Economic Development
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52621&db_type=sde
 :description: The Storefront Improvement Program is a major component of the city's revitalization efforts, providing cash grants and technical assistance to business and property owners in eligible neighborhoods. Recipients can use the support for a variety of improvements, ranging from repainting to purchase of new windows and awnings.
 :downloads: 
 - :format: shp

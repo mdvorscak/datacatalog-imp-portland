@@ -17,15 +17,15 @@
     - public works
     - Transportation
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52484&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52484&db_type=sde
 :description: This polygon feature class is part of the Bureau of Transportation's sidewalk system (the entire system consists of sidewalk, corners and curbs). The purpose of the system is to provide pedestrians with a safe way to access transit, neighborhood facilities, parks and schools.
 :downloads: 
 - :format: shp

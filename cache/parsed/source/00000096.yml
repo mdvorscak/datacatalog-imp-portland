@@ -28,15 +28,15 @@
     - recreation
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52963&Db_type=sde&City_Only=False
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/viewer/display.cfm?Meta_layer_id=52963&Db_type=sde&City_Only=False
 :description: This dataset represents proposed and existing trail centerlines within the general vicinity of Portland, Oregon. It is an amalgamation of many different sources compiled at many different scales.
 :downloads: 
 - :format: shp

@@ -30,15 +30,15 @@
     - town
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=155&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=155&Db_type=rlislite
 :description: County boundaries for Clackamas County, Multnomah County, and Washington County, Oregon; Clark County, Washington.
 :downloads: 
 - :format: shp

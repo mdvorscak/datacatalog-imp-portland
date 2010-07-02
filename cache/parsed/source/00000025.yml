@@ -21,15 +21,15 @@
     - streets
     - Transportation
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52783&db_type=sde
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Public Works
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://www.portlandonline.com/cgis/metadata/Viewer/display.cfm?Meta_layer_id=52783&db_type=sde
 :description: This linear feature class includes the Bureau of Transportation's guardrails, which are longitudinal roadside barriers. This dataset classifies 5 types of guardrails, differentiated by the attribute GuardRailType. These categories are Concrete (4711), Rail (4712), Rock Barrier (4713), Post & Cable (4714) and Other (4710).
 :downloads: 
 - :format: shp

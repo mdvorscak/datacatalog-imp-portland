@@ -27,15 +27,15 @@
     - ONI
     - Washington
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=237&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Community
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=237&Db_type=rlislite
 :description: Neighborhood organization (NBO) and community planning organization (CPO) boundaries. Neighborhood boundaries are drawn for jurisdictions which have active neighborhood organizations within their boundaries. Clackamas, Clark, Multnomah, and Washington counties in Oregon and Washington.
 :downloads: 
 - :format: shp

@@ -19,15 +19,15 @@
     - Tri-met
     - Trimet
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=456&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Transportation
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=456&Db_type=rlislite
 :description: The bus system is composed of one line layer (bus routes) and three point layers (bus stops, bus labels and downtown bus labels).
 :downloads: 
 - :format: shp

@@ -21,15 +21,15 @@
     - MET
     - street address
   "2": 
-    :description: technical_documentation
-    :label: technical_documentation
-    :type: string
-    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=656&Db_type=rlislite
-  "3": 
     :description: category
     :label: category
     :type: string
     :value: Geography
+  "3": 
+    :description: technical_documentation
+    :label: technical_documentation
+    :type: string
+    :value: http://rlismetadata.oregonmetro.gov/display.cfm?Meta_layer_id=656&Db_type=rlislite
 :description: This Address File serves as a comprehensive address point file for the region; Clackamas County, Multnomah County, and Washington County, Oregon. Addresses are represented as individual points and are positioned inside or adjacent to taxlot parcels or on buildings within a parcel.
 :downloads: 
 - :format: shp
