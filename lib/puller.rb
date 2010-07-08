@@ -11,13 +11,12 @@ class Puller
   
   #Pull the initial data down and save it locally, parsed in easily readable form.
   def initialize
-  #  @logger = Logger.new(@pull_log)
-    
-    @index_metadata=get_metadata
+    @index_metadata = get_metadata
     U.write_yaml(@index_data, @index_metadata) # for easy viewing later
   end
 
-  #The fetch method is called repeatedly, each time it returns parsed metadata in the correct format for a single source.
+  #The fetch method is called repeatedly, each time it returns parsed metadata 
+  #in the correct format for a single source.
   #When there is no metadata left nil is returned.
   def fetch
     sleep(FETCH_DELAY)
